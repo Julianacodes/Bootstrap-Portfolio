@@ -14,12 +14,19 @@ body {
   * {
     box-sizing: border-box;
   }
+  nav{
+    min-height: 8vh;
+  }
 
   .container {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
     clear: both;
+    min-height: 82vh;
+  }
+  .footerWrapper{
+    min-height: 10vh;
   }
   
   h1,
