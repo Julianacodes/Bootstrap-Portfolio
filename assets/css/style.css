@@ -21,9 +21,11 @@ body {
   .container {
     width: 100%;
     max-width: 960px;
-    margin: 0 auto;
+    /* margin: auto; */
     clear: both;
     min-height: 82vh;
+
+    background-color: white;
   }
   .footerWrapper{
     min-height: 10vh;
@@ -132,14 +134,3 @@ textarea {
     height: 200px;
 }
   
-/* input[type=submit] {
-    padding: 10px 30px;
-    font-size: 18px;
-    color: #ffffff;
-    cursor: pointer;
-    background: #4aaaa5;
-    border: 0 none;
-} */
-.container{
-    background-color: white;
-}
